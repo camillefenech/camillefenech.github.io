@@ -3,6 +3,8 @@ h1 {
   font-size: 80pt;
   color: #ffb680
 }
+p {
+  font-size: 25;
 body {
   background-color: coral;
 }
