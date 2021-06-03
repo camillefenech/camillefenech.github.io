@@ -1,17 +1,17 @@
 h1 {
   font-weight: bold;
   font-size: 80pt;
-  color: #d3cea8
+  color: white;
 }
 p {
   font-size: 25;
-  color: #e7e4cc
+  color: #e7e4cc;
 }
 body {
-  background-color: #bc9b4e
+  background-color: #bc9b4e;
 }
 a {
-  color: #d3cea8
+  color: #d3cea8;
 }
 a:hover {
   color: white;
