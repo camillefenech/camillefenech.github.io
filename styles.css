@@ -9,3 +9,7 @@ p {
 body {
   background-color: #ac8837;
 }
+a {
+  color: white;
+  text-transform; uppercase;
+}
