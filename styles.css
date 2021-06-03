@@ -10,8 +10,8 @@ body {
   background-color: #ac8837;
 }
 a {
-  color: white;
+  color: #d3cea8
 }
 a:hover {
-  color: red;
+  color: white;
 }
