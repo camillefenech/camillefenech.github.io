@@ -12,11 +12,6 @@
     <link rel="stylesheet" href="homepage.css">
     <title>Homepage</title>
 
-    <style type="text/css">
-        .DivStyle {
-            max-width: 100%;
-        }
-    </style>
 </head>
 
 <body>
@@ -24,7 +19,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#" style="color: #33704E;"><img src="bfa.png"></a>
+                <a class="navbar-brand" href="#" style="color: #33704E;"><img src="bfa.png" alt="bfa"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -34,23 +29,22 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"
-                                style="color: #33704E; background-color: #33704e00;">About</a>
+                                style="color: #33704E; background-color: #33704e00; font-family: 'Poppins';">About</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"
-                                style="color: #33704E;background-color: #33704e00;">Exhibition</a>
+                                style="color: #33704E;background-color: #33704e00;font-family: 'Poppins';">Exhibition</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"
-                                style="color: #33704E;background-color: #33704e00;">Gallery</a>
+                                style="color: #33704E;background-color: #33704e00;font-family: 'Poppins';">Gallery</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="#"
-                                style="color: #33704E;background-color: #33704e00;">Contact</a>
+                                style="color: #33704E;background-color: #33704e00;font-family: 'Poppins';">Contact</a>
                         </li>
-
+                    </ul>
                 </div>
-            </div>
         </nav>
 
 
@@ -62,15 +56,15 @@
     <div class="slideshow-container" style="position:absolute; z-index: 0">
 
         <div class="mySlides">
-            <img src="train.png" style="width:100%">
+            <img src="train.png" alt="train" style="width:100%">
         </div>
 
         <div class="mySlides">
-            <img src="statue.png" style="width:100%">
+            <img src="statue.png" alt="statue" style="width:100%">
         </div>
 
         <div class="mySlides">
-            <img src="3d.png" style="width:100%">
+            <img src="3d.png" alt="3d" style="width:100%">
         </div>
 
         <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -113,7 +107,7 @@
             dots[slideIndex - 1].className += " active";
         }
     </script>
-    </div>
+
 
     <div>
         <footer>
@@ -122,7 +116,9 @@
     </div>
 
     <div class="footer" style="position:absolute; z-index: 2">
-        <p>@2022</p>
+        <a href="https://www.instagram.com/ummalta/" target="_blank">
+            <img src="insta.png" alt="insta">
+        </a>
     </div>
 </body>
 
