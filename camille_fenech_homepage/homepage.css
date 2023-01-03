@@ -5,14 +5,10 @@ body {
 
 .DivStyle {
     font-family: 'Poppins';
-    font-size: 22px;
+    font-size: 20px;
 
 }
 
-.DivStyle a:hover {
-    background-color: #ddd;
-    color: rgb(181, 83, 83);
-}
 
 .footer {
     position: fixed;
@@ -24,11 +20,11 @@ body {
     text-align: left;
     padding: 10px;
     font-family: 'Poppins';
-    font-size: 22px;
+    font-size: 12px;
 }
 
 * {
-    font-family: myFirstFont;
+    font-family: 'Poppins';
 }
 
 * {
